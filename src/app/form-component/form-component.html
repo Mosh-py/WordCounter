@@ -1,0 +1,16 @@
+
+
+    <form >
+
+        <textarea [formControl]="writtenText" wrap = "soft"> sda</textarea>
+
+        <p id = counter> Characters {{writtenText.value?.length }}  
+        |  <span>  Words {{ wordCount()}} </span>
+        |<span> Sentences {{sentenceCount()  }} </span>
+            
+        
+       
+    </form>
+
+
+

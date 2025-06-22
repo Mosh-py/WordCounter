@@ -1,0 +1,11 @@
+div{
+    background-color: rgb(9, 103, 209);
+    color: white;
+    
+}
+
+p{
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
